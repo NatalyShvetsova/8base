@@ -1,0 +1,17 @@
+{
+  "functions": [
+    {
+      "name": "tableCreate",
+      "handler": "tableCreate.handler"
+    }
+  ],
+  "resolvers": [
+    {
+      "name": "tableCreate",
+      "functionName": "tableCreate",
+      "gqlType": "Query"
+    }
+  ],
+  "triggers": [],
+  "webhooks": []
+}

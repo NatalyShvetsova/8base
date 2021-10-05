@@ -1,6 +1,6 @@
 functions:
-  myCustomResolver:
+  tableCreate:
     type: resolver
     handler:
-      code: src/resolvers/myCustomResolver/handler.ts
-    schema: src/resolvers/myCustomResolver/schema.graphql
+      code: src/resolvers/tableCreate/handler.ts
+    schema: src/resolvers/tableCreate/schema.graphql

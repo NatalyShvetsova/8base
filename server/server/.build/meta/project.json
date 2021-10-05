@@ -1,0 +1,10 @@
+{
+  "name": "server",
+  "functions": [
+    {
+      "name": "tableCreate",
+      "handler": "tableCreate.handler",
+      "pathToFunction": "src/resolvers/tableCreate/handler.ts"
+    }
+  ]
+}
